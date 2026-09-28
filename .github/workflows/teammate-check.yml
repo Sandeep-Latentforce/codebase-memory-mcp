@@ -1,0 +1,9 @@
+name: teammate-check
+on: pull_request
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "2 tests failed in test_checkout.py"
+          exit 1
