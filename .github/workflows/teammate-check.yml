@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "3DS retry test failed: bank timeout not handled"
+          echo "final check: 3DS retry still failing"
           exit 1
