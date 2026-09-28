@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "final check: 3DS retry still failing"
+          echo "live card: 3DS retry still failing"
           exit 1
