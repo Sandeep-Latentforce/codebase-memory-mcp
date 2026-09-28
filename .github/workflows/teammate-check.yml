@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "2 tests failed in test_checkout.py"
+          echo "3DS retry test failed: bank timeout not handled"
           exit 1
