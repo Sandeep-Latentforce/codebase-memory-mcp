@@ -1,0 +1,15 @@
+name: teammate-check
+on: pull_request
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "grouping check: bank timeout not handled"
+          exit 1
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "grouping check: lint failed"
+          exit 1
