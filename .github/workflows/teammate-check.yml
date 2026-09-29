@@ -5,5 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "personal check: bank timeout not handled"
+          echo "grouping check: bank timeout not handled"
+          exit 1
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "grouping check: lint failed"
           exit 1
