@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "live card: 3DS retry still failing"
+          echo "personal check: bank timeout not handled"
           exit 1
